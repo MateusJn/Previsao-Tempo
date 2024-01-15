@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Previsão do Tempo</title>
 </head>
 
@@ -12,21 +13,21 @@
 
     <div class="Caixa-principal">
         <input class="input-cidade" placeholder="Digite a cidade">
-        <button class="botao">
+        <button class="botao" onclick="clickbotao()">
             <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg" alt="Lupa">
         </button>
 
         <div class="caixa-media">
             <h2 class="cidade">Tempo em </h2>
 
-            <p class="tempo">21 °C</p>
+            <p class="tempo"> °C</p>
 
             <div class="caixa-menor">
-                <img class="img-previsao" src="Arquivos/Nuvem.png" alt="Icone do tempo">
-                <p class="texto-previsao">Nublado</p>
+                <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="Icone do tempo">
+                <p class="texto-previsao"></p>
             </div>
 
-            <p class="umidade">Umidade: 75%</p>
+            <p class="umidade">Umidade: </p>
 
         </div>
     </div>
